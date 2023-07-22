@@ -1,6 +1,7 @@
 # Irobot提交说明
 
 - 运行系统为Ubuntu20.04
+- ROS 环境为 ROS1 noetic
 
 ###  1. Dependencies
 
