@@ -5,7 +5,7 @@
 
 ###  1. Dependencies
 
-- CICRSIM
+- **CICRSIM**
 
   - Install
 
@@ -13,9 +13,9 @@
     sudo apt-get install ros-noetic-mavlink python3-wstool python3-catkin-tools protobuf-compiler libgoogle-glog-dev ros-noetic-mavros python3-pygame
     ```
 
-  - 具体配置请参考src/CICRSIM/README.md
+  - **具体配置请参考src/CICRSIM/README.md**
 
-- FUEL
+- **FUEL**
 
   - Install
 
@@ -37,19 +37,19 @@
 
 ### 2. Build
 
-   ``` shell
+  ``` shell
   catkin build
-   ```
-   
+  ```
+
 - 由于不同包之间的msg存在依赖关系，可能第一次build会失败，再build一次就可以了
 
 
 ###  3. Run
 
-- 命令行1: 开启仿真器和裁判系统
+- 一键开启
 
   ``` shell
-    cd <fuel/work/space>
+  cd <fuel/workspace>
 	sh ./script/test.sh
   ```
 
