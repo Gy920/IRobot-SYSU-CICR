@@ -37,36 +37,20 @@
 
 ### 2. Build
 
-``` shell
-catkin build
-```
-
+   ``` shell
+  catkin build
+   ```
+   
 - 由于不同包之间的msg存在依赖关系，可能第一次build会失败，再build一次就可以了
 
 
 ###  3. Run
 
 - 命令行1: 开启仿真器和裁判系统
+
   ``` shell
-	sh ./test.sh
-  ```
-
-- 命令行2: 开启探索节点
-
-  ```shell
-  source devel/setup.bash && roslaunch exploration_manager  auto_exploration.launch
-  ```
-  
-- 命令行3: 开启检测检点
-
-  ```shell
-  source devel/setup.bash;roslaunch apriltag_ros  continuous_detection.launch
-  ```
-
-- 命令行4: 开启rviz可视化
-
-  ```shell
-  source devel/setup.bash && roslaunch exploration_manager  rviz.launch
+    cd <fuel/work/space>
+	sh ./script/test.sh
   ```
 
 
