@@ -71,8 +71,8 @@
     <arg name="fy" value="347.99755859375"/>
 
     <!-- maximum velocity and acceleration the drone will reach -->
-    <arg name="max_vel" value="2.0" />
-    <arg name="max_acc" value="2.0" />
+    <arg name="max_vel" value="2.5" />
+    <arg name="max_acc" value="1.0" />
   </include>
 
 

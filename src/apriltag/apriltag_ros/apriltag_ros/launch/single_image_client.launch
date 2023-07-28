@@ -11,8 +11,8 @@
 
   <node pkg="apriltag_ros" type="apriltag_ros_single_image_client_node" name="$(arg node_namespace)" clear_params="true" output="screen" launch-prefix="$(arg launch_prefix)" >
 
-    <param name="image_load_path" type="str" value="/home/verse/Pictures/textures/apriltag-7.png" />
-    <param name="image_save_path" type="str" value="/home/verse/Pictures/textures/test/apriltag-7.png" />
+    <param name="image_load_path" type="str" value="/home/verse/Pictures/tag.jpeg" />
+    <param name="image_save_path" type="str" value="/home/verse/Pictures/tag2.jpeg" />
 
     <!-- Camera intrinsic parameters -->
     <param name="fx" type="double" value="1386.4139404296875" />
