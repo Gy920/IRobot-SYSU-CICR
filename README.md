@@ -1,4 +1,4 @@
-# Irobot提交说明
+# IRobot-CICR-2023 比赛提交代码
 
 - 运行系统为Ubuntu20.04
 - ROS 环境为 ROS1 noetic
