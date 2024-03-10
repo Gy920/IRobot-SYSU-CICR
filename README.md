@@ -1,4 +1,20 @@
-# Irobot提交说明
+# IRobot-CICR-2023 比赛提交代码
+
+## 参赛情况
+
+### 1. 比赛详情
+
+[第一届"逸仙勇士杯"协同机器人国际邀请赛](https://github.com/SYSU-STAR/CICRSIM?tab=readme-ov-file)
+
+### 2. 参赛人员
+
+ [Guiyong Zheng](https://github.com/Gy920), [Bihao Zhang](https://github.com/BH0924), [Weilv Chi](https://github.com/shitoujie), [Yuhao Lu](https://github.com/Rok2002)
+
+### 3. 获奖情况
+
+仿真赛成功提交晋级后，参与实机赛获得二等奖（2023.08）
+
+## 提交说明
 
 - 运行系统为Ubuntu20.04
 - ROS 环境为 ROS1 noetic
